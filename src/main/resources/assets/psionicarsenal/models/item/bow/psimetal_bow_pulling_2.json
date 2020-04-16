@@ -1,0 +1,6 @@
+{
+	"parent": "psionicarsenal:item/bow/psimetal_bow",
+	"textures": {
+		"layer0": "psionicarsenal:item/bow/psimetal_bow_pulling_2"
+	}
+}

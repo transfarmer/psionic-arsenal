@@ -1,0 +1,19 @@
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+run
+
+#custom
+betterdungeons
+src/main/java/slimeknights
+src/main/slimeknights
+src/main/damagetint

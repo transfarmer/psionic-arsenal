@@ -1,0 +1,23 @@
+[
+    {
+        "modid": "psionicarsenal",
+        "name": "psionic arsenal",
+        "description": "a continuation of Psionic Peripherals",
+        "version": "1.1.1",
+        "mcversion": "1.12.2",
+        "url": "",
+        "updateUrl": "",
+        "authorList": [
+            "transfarmer",
+            "Dudblockman"
+        ],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": [
+            "psi",
+            "librarianlib",
+            "autoreglib"
+        ]
+    }
+]
