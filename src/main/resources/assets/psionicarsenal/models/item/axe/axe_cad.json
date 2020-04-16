@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"0": "psionicarsenal:item/blade",
-		"1": "psionicarsenal:item/axe/axe"
+		"1": "psionicarsenal:item/axe/axe_cad"
 	},
 	"elements": [
 		{

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "psionicarsenal:item/blade",
-		"1": "psionicarsenal:item/pickaxe/pickaxe"
+		"1": "psionicarsenal:item/pickaxe/pickaxe_cad"
 	},
 	"elements": [
 		{
