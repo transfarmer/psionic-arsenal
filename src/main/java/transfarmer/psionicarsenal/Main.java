@@ -10,10 +10,13 @@ import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import transfarmer.psionicarsenal.item.ModItems;
 import transfarmer.psionicarsenal.util.PsionicArsenalTab;
+
+import static net.minecraftforge.fml.relauncher.Side.CLIENT;
 
 @Mod(
         modid = Main.MOD_ID,
@@ -36,14 +39,15 @@ public class Main {
     public static class RegistryEventHandler {
         @SubscribeEvent
         public static void onRegisterItem(final Register<Item> event) {
-            for (final Item item : ModItems.ITEMS) {
+            for (final Item item : ModItems.get()) {
                 event.getRegistry().register(item.setCreativeTab(TAB));
             }
         }
 
+        @SideOnly(CLIENT)
         @SubscribeEvent
         public static void onModelRegistryEvent(final ModelRegistryEvent event) {
-            for (final Item item : ModItems.ITEMS) {
+            for (final Item item : ModItems.get()) {
                 final String path = item.getRegistryName().getPath();
                 final String prefix;
 

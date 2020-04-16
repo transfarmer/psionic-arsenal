@@ -14,16 +14,18 @@ public class ModItems {
     public static final ItemAxeCad AXE_CAD = new ItemAxeCad("axe_cad");
     public static final ItemAxeAssembly AXE_ASSEMBLY = new ItemAxeAssembly("axe_assembly");
 
-    public static final Item[] ITEMS = {
-            PSIMETAL_BOW,
-            BOW_CAD,
-            SWORD_CAD,
-            SWORD_ASSEMBLY,
-            PICKAXE_CAD,
-            PICKAXE_ASSEMBLY,
-            SHOVEL_CAD,
-            SHOVEL_ASSEMBLY,
-            AXE_CAD,
-            AXE_ASSEMBLY
-    };
+    public static Item[] get() {
+        return new Item[]{
+                PSIMETAL_BOW,
+                BOW_CAD,
+                SWORD_CAD,
+                SWORD_ASSEMBLY,
+                PICKAXE_CAD,
+                PICKAXE_ASSEMBLY,
+                SHOVEL_CAD,
+                SHOVEL_ASSEMBLY,
+                AXE_CAD,
+                AXE_ASSEMBLY
+        };
+    }
 }
